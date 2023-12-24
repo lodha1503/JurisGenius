@@ -1,0 +1,44 @@
+
+.options{
+    display: flex;
+    width: 582.06px;
+    height: 48px;
+    margin-left: 432px;
+    
+}
+
+/* Common styles for all three classes */
+.opt-link {
+    width: 202.06px;
+    display: flex;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid #9E9E9E;
+    color: #181819;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.28px;
+    transition: color 0.3s ease; /* Smoothly transition the color over 0.3 seconds with ease timing function */
+    text-decoration: none; /* Remove underline from the links */
+}
+
+/* Specific styles for each class */
+.opt-link-publications {
+    border-radius: 0px 12px 12px 0px;
+}
+
+.opt-link-rnw {
+    border-radius: 12px 0px 0px 12px;
+}
+
+
+.opt-link-rnw:hover, .opt-link-publications:hover, .opt-link-opportunities:hover {
+    background-color: #181819; /* Change the color to your desired color */
+    color:white;
+    cursor: pointer; /* Optional: Change cursor to a pointer for better user experience */
+}
