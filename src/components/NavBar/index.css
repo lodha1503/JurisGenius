@@ -11,12 +11,11 @@
   width: 100vw;
   font-size: x-large;
   justify-content: center;
-  
   max-width: 100vw;
-  background: #FFF;
   flex-shrink: 0;
   /* border: 1px solid blue; */
-
+  background: #070000;
+  color: white;
  
  
 }
@@ -38,11 +37,16 @@
   line-height: 64px; /* Vertically center text */
   text-align: center;
   align-items: center;
-  /* border: 1px solid magenta; */
+ 
+}
+
+.text{
+  color: white;
 }
 
 .ak_rathi{
   text-decoration: none;
+  color: white;
 }
 
 .part2{
@@ -53,6 +57,7 @@
   font-size: 16px;
   margin-block-start: 0em;
   padding-inline-start: 0px;
+  color: white;
 
 }
 
@@ -75,7 +80,7 @@
 #four,
 #five,
 #six {
-  color: #4A4A4A;
+  color: #ffffff;
   display: inline-block;
   font-family: Inter;
   font-size: 14px;
