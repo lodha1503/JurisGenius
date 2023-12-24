@@ -40,13 +40,11 @@
  
 }
 
-.text{
-  color: white;
-}
+
 
 .ak_rathi{
   text-decoration: none;
-  color: white;
+  
 }
 
 .part2{
@@ -63,7 +61,7 @@
 
 .text{
   font-size: 20px;
-  color: #010101;
+  color: white;
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
